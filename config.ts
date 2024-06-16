@@ -11,13 +11,13 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'wwvl',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'wwvl',
 
   // Clock
-  twelveHourFormat: false,
-  flashSeparator: false,
+  twelveHourFormat: true,
+  flashSeparator: true,
 
   // Font Family
   font: {
@@ -67,11 +67,11 @@ export const config: Config = {
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'zh_cn', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // Request location from the browser. If false, or location is denied, use the coordinates below.
+  defaultLatitude: '34.183834',
+  defaultLongitude: '468.892438',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
