@@ -16,8 +16,8 @@ export const config: Config = {
   title: 'wwvl',
 
   // Clock
-  twelveHourFormat: true,
-  flashSeparator: true,
+  twelveHourFormat: false,
+  flashSeparator: false,
 
   // Font Family
   font: {
@@ -70,8 +70,8 @@ export const config: Config = {
   language: 'zh_cn', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: false, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '34.183834',
-  defaultLongitude: '468.892438',
+  defaultLatitude: '34.11',
+  defaultLongitude: '468.53',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
